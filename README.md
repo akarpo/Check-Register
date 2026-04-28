@@ -31,3 +31,7 @@ The repo root is the single source of truth for deliverables. Everything else li
 All check registers were pulled from BoardDocs (https://go.boarddocs.com/mi/troysd/Board.nsf/Public), each attached to the Treasurer's Report agenda item of the corresponding Regular Board of Education meeting. Filenames are prefixed with the meeting date (`YYYY-MM-DD`) for sortability; the period each register actually covers is stated inside the PDF (typically meeting date minus ~2 months).
 
 See `Working Folder/Cache and Tools/project_docs/INDEX.md` for fiscal-year coverage and known gaps.
+
+## License
+
+MIT — see [`LICENSE`](LICENSE).
