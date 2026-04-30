@@ -22,4 +22,4 @@ Check-Register/                              (git repo root — single source of
 
 The dashboard and xlsx were built through the Claude.ai web interface during the initial pull from BoardDocs. They are kept here as static artifacts; there is no automated rebuild pipeline yet.
 
-If/when an extraction pipeline is added, it will follow the same pattern as the sibling `Achievement` repo: scripts in `Cache and Tools/`, intermediate CSVs in `Cache and Tools/extracted_data/`, a portable `_paths.py`, and a `rebuild.command` that writes the xlsx directly to the repo root.
+If/when an extraction pipeline is added, it will follow the same pattern as the sibling `tsd-achievement` repo: scripts in `Cache and Tools/`, intermediate CSVs in `Cache and Tools/extracted_data/`, a portable `_paths.py`, and a `rebuild.command` that writes the xlsx directly to the repo root.
