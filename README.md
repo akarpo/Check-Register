@@ -12,11 +12,13 @@ Interactive dashboard and master workbook reconciling Troy School District (MI) 
 ## Project layout
 
 ```
-Check-Register/                              ← repo root (deliverables only)
+tsd-checkregister/                           ← repo root (deliverables only)
 ├── index.html                               ← dashboard (static, hand-edited, data inlined)
 ├── Troy_SD_Check_Register_FY23-FY26.xlsx    ← master workbook
 ├── README.md                                ← this file
-└── Working Folder/                          ← tooling, source data, intermediate work
+├── PROMPTS.md                               ← structured build-prompt scaffold (reproducibility)
+└── Working Folder/                          ← tooling, source data, prompt history
+    ├── Prompts/                             ← per-prompt archive + running.md log
     └── Cache and Tools/
         ├── source_data/
         │   └── BoardDocs_PDFs/              ← 45 monthly check-register PDFs (FY22 tail → Feb 2026)
@@ -25,6 +27,10 @@ Check-Register/                              ← repo root (deliverables only)
 ```
 
 The repo root is the single source of truth for deliverables. Everything else lives under `Working Folder/`.
+
+## Reproducibility
+
+The dashboard and workbook were originally built via the Claude.ai web interface; those prompts were not captured. Going forward, the project is intended to be reproducible end-to-end via Claude Code: see [`PROMPTS.md`](PROMPTS.md) for the structured build-prompt scaffold and [`Working Folder/Prompts/running.md`](Working%20Folder/Prompts/running.md) for the chronological prompt log. Any future revision should add its prompt to both.
 
 ## Source
 
