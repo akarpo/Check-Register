@@ -1,0 +1,24 @@
+# Build artifacts (regenerable from scripts)
+*.pkl
+_staging.xlsx
+
+# Scrape cache (regenerable from BoardDocs)
+Working Folder/Cache and Tools/scrape_cache/
+
+# One-off search outputs / scratch from build runs
+Working Folder/Cache and Tools/build/tcrwp_post2018_results.txt
+Working Folder/Cache and Tools/build/*.log
+Working Folder/Cache and Tools/build/parse_summary.txt
+Working Folder/Cache and Tools/build/pre2020_summary.txt
+Working Folder/Cache and Tools/build/payload.json
+
+# Source PDFs — large; bundled separately, not via git history
+Working Folder/Cache and Tools/source_data/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+__pycache__/
+*.pyc
