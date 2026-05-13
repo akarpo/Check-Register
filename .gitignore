@@ -22,3 +22,7 @@ desktop.ini
 *.swp
 __pycache__/
 *.pyc
+
+# Excel lock files + transient backups from in-place merges
+~$*.xlsx
+*.backup.xlsx
